@@ -1,0 +1,100 @@
+1. What is IOC Container? how many design pattern is there? what is factory pattern?
+2. What do you know about Dependency injection?
+3. How you are injecting your dependencies in your project? Alternative of @Autowired?
+3. what is Spring ORM?
+3. What is Bean and How do you create it?
+4. what is @Qualifier? What @Transaction do? Why we use @Service? What is @Repository?
+5. How do you disable AutoConfiguration in Spring Boot?
+6. What is Actuator?
+7. What is service discovery/registration?
+8. Is feign client synchronus or asynchronus and why?
+9. How do you create a model in Spring Boot?
+10. What is repository?
+11. what will happen if We give @Service instead of @Repository in repository class?
+12. What is UML diagram?
+13. Explain the OOP concept?.
+14. What is polymorphisom?
+15. How to call
+	class A {
+		public void method(){}-----> this method?
+	}
+	class B extends A {
+		@override
+		public void method(){}
+	}
+16. What is runtime and compile time polymorphisom?
+17. What is exception?
+18. How many type of exceptions are there? give example.
+19. what is throw and throws?
+20. What is checked and unchecked exception?
+21. What is data abstraction?
+22. Difference between data abstraction and data hiding?
+23. What is interface? why java implement interface?
+24. What is singleton class and how do you implemnt it? give a real life example?
+25. What is aggregation and composition?
+26. What is has-a and is-a relation?
+27. What is tightly coupled and loosely coupled?
+29. What is multitasking?
+30. What is multithreading?
+31. How we manage the deadlock situation in threading?
+32. How do you implement Synchronized?
+33. What is daemon thread?
+35. What is user thread?
+36. What are the methods in thread?
+37. What is application context? why do we need it?
+38. What is profile? how many profile you have used?
+39. How do you get the values of properties file?
+40. Difference between Singleton application and microservices?
+41. Difference between hashmap and treemap?
+42. Difference between Hashtable and treeTable?
+43. Difference between Arraylist and Linkedlist?
+44. Difference between hashset and linkedhashset?
+45. which are all the ordered and whiche are all the unordered collection?
+46. Difference between collection and collections?
+47. How many type of microservices are there?
+48. What is functional interface?
+49. What is transient variable?
+50. What is Serialization?
+50. Caching Technique and Data Integrity in Spring Boot
+51. Read JSON data from csv file in java using java 8.
+52. What is method reference in java 8.
+53. Advantage and disadvantage of using JPA in hibernate.
+54. How to do banking transaction in Spring Boot.
+
+------------------------------------------------Data Structure Sorting(Optional)----------------------------------------------------------------
+
+// #1 - Sort 10 schools around your house by distance: Insertion Sort because it is a small input size, and in these cases this algorithm is very effective, and if the input is (or almost) sorted it will be even faster.
+
+// #2 - eBay sorts listings by the current Bid amount: Radix or Counting Sort because it is a number in a range, so we can take advantage of its quick executions with numbers, in addition to being an integer value, in addition to being in eBay won't be a value like a trillion, it will be smaller values.
+
+// #3 - Sport scores on ESPN: Quick Sort because sometimes it has decimals, different formats for soccer, tennis, etc. It will be the most efficient, because despite worrying about the worst case because its entries may be different, it is important to worry about the memory space that we will occupy.
+
+// #4 - Massive database (can't fit all into memory) needs to sort through past year's user data: Merge Sort because we will not be sorting in memory because the data is very large, and because the size is massive we must prioritize time complexity.
+
+// #5 - Almost sorted Udemy review data needs to update and add 2 new reviews: Insertion Sort because the information is almost sorted, and we are only adding 2 reviews.
+
+// #6 - Temperature Records for the past 50 years in Canada: Radix or Counting Sort because they do not have decimals, and are usually 2-digit numbers, which will allow us to take advantage of the resources using these algorithms.
+
+// #7 - Large user name database needs to be sorted. Data is very random: Merge Sort if we have enough memory, or Quick Sort if we don't worry about the worst case and can select a good pivot.
+
+// #8 - You want to teach sorting for the first time: Bubble Sort, Selection Sort because they are the simplest.
+
+<-----------------------------------------------Using Conditions of BFS and DFS----------------------->
+
+//If you know a solution is not far from the root of the tree:
+BFS
+
+//If the tree is very deep and solutions are rare: 
+BFS - DFS will be slower
+
+//If the tree is very wide:
+DFS - BFS will need too much memory, in a queue
+
+//If solutions are frequent but located deep in the tree:
+DFS
+
+//Determining whether a path exists between two nodes:
+DFS
+
+//Finding the shortest path:
+BFS
